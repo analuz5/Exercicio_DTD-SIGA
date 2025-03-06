@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT revisoes (veiculo+)>
-<!ELEMENT veiculo (descricao?, caracteristicas)>
-
 <!ATTLIST veiculo 
-    placa CDATA #REQUIRED
-    combustivel (gasolina | flex | diesel) "gasolina"
-    zerokm (Sim | Não) "Não"
-    loja CDATA #FIXED "Itu">
-
+          placa CDATA #REQUIRED
+          combustivel (gasolina | flex | diesel) "gasolina"
+          zerokm (sim | nao) "nao"
+          loja CDATA #FIXED "Itu">
+<!ELEMENT veiculo (descricao?, caracteristicas)>
 <!ELEMENT descricao (#PCDATA)>
-
 <!ELEMENT caracteristicas (cor, km?, foto+)>
-
 <!ELEMENT cor (#PCDATA)>
 <!ELEMENT km (#PCDATA)>
 <!ELEMENT foto (#PCDATA)>

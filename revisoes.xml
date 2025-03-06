@@ -9,4 +9,24 @@
             <foto>carro.png</foto>
         </caracteristicas>
     </veiculo>
+
+    <veiculo placa="ABC1239" combustivel="flex" zerokm="sim">
+        <caracteristicas>
+            <cor>Preto</cor>
+            <km>44118</km>
+            <foto>carro.png</foto>
+            <foto>carro2.png</foto>
+        </caracteristicas>
+    </veiculo>
+
+    <veiculo placa="XMA4239" combustivel="diesel" zerokm="sim" loja="Itu">
+         <descricao>Veículo novo a diesel</descricao>
+        <caracteristicas>
+            <cor>Preto</cor>
+            <km>44118</km>
+            <foto>carro.png</foto>
+            <foto>carro2.png</foto>
+            <foto>carro3.png</foto>
+        </caracteristicas>
+    </veiculo>
 </revisoes>
