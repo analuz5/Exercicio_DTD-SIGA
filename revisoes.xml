@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE revisoes SYSTEM "revisoes.dtd">
+<revisoes>
+    <veiculo placa="ABC1234" combustivel="flex">
+        <descricao>Veículo novo, único dono</descricao>
+        <caracteristicas>
+            <cor>Prata</cor>
+            <km>14118</km>
+            <foto>carro.png</foto>
+        </caracteristicas>
+    </veiculo>
+</revisoes>

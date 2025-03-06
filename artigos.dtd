@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT artigos (artigo)+>
+<!ELEMENT artigo (autor+, titulo, resumo, secao, bibliografia)>
+<!ATTLIST artigo data CDATA #REQUIRED 
+         ultima_revisao CDATA #IMPLIED
+         ultimo_revisor CDATA #IMPLIED
+         versao CDATA #IMPLIED
+         status CDATA #IMPLIED>
+<!ELEMENT autor (nome)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT resumo (#PCDATA)>
+<!ELEMENT secao (#PCDATA)>
+<!ELEMENT figura EMPTY>
+<!ATTLIST figura nome CDATA #IMPLIED>
+<!ELEMENT bibliografia (referencia)+>
+<!ELEMENT referencia (obra, autor+, ano?, local?)>
+<!ATTLIST referencia id ID #REQUIRED>
+<!ELEMENT obra (#PCDATA)>
+<!ELEMENT ano (#PCDATA)>
+<!ELEMENT local (#PCDATA)>
